@@ -1,0 +1,16 @@
+
+ * Encapsulation, nesne yönelimli programlamada (OOP) bir sınıfın veri ve davranışlarını bir arada tutma ve erişimin kontrol altında tutulması prensibidir.
+      Bu prensip, verilerin ve ilgili işlemlerin bir arada gruplandırılarak, sınıfın dışındaki etkileşimlerin kontrol edilmesini sağlar.
+
+    Encapsulation'ın ana amacı, veri güvenliğini ve bütünlüğünü sağlamaktır. Sınıfın içerisindeki verilere doğrudan erişimi engelleyerek, bu verilere    
+     yalnızca sınıfın kendi metodları aracılığıyla erişilmesini sağlar. Böylece verilerin istenmeyen bir şekilde değiştirilmesi veya hatalı kullanılması önlenir.
+
+    Encapsulation, bir sınıfın verilerini (private alanlar veya property'ler aracılığıyla) gizleyerek erişim kontrolü sağlar. Sınıfın dışındaki kodlar, 
+    sınıfın belirlediği arayüz (public metodlar veya property'ler) üzerinden verilere erişebilir veya bu verileri değiştirebilir. 
+    Bu sayede sınıfın içerisindeki veri yapısı değişse bile, sınıfın dışında etkileşim sağlayan kodlar üzerinde minimal bir etkileşim olur.
+
+    Encapsulation, bir sınıfın içerisindeki verilerin korunmasını ve doğru kullanımını sağlayarak programın güvenilirliğini artırır. 
+    Ayrıca sınıfların daha bağımsız ve tekrar kullanılabilir olmasını sağlar, çünkü sınıfın iç yapısı dışarıya gizlenir ve sınıfın dışındaki kodlar bu iç yapının detaylarıyla ilgilenmez.
+
+    Özetle, encapsulation veri gizleme ve erişim kontrolü sağlayarak,
+    sınıfın verilerinin güvenliğini ve bütünlüğünü koruyan bir OOP prensibidir.k
