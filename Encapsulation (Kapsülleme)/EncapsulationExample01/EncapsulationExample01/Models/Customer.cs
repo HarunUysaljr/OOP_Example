@@ -40,6 +40,6 @@ namespace EncapsulationExample01.Models
 
 
         //bir field üzerinde değeri okurken veya değeri verirken bu şekilde yapılabilmektedir
-        //"İmplementasyon gizlenmesi" Auto Property Özelliği ile 
+        //"İmplementasyon gizlenmesi" Auto Property-->
     }
 }
