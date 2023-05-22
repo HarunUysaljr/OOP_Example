@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using EncapsulationExample01.Models;
+
+Customer customer = new Customer()
+{
+    Id = 2,
+    FirstName = "Harun",
+    SoyAd = "Uysal",
+};
+
+Console.WriteLine(customer.FirstName + "\n"+ customer.SoyAd + "\n" + customer.Id
+    );
