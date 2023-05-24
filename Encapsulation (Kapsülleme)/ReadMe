@@ -13,4 +13,4 @@
     Ayrıca sınıfların daha bağımsız ve tekrar kullanılabilir olmasını sağlar, çünkü sınıfın iç yapısı dışarıya gizlenir ve sınıfın dışındaki kodlar bu iç yapının detaylarıyla ilgilenmez.
 
     Özetle, encapsulation veri gizleme ve erişim kontrolü sağlayarak,
-    sınıfın verilerinin güvenliğini ve bütünlüğünü koruyan bir OOP prensibidir.k
+    sınıfın verilerinin güvenliğini ve bütünlüğünü koruyan bir OOP prensibidir.
