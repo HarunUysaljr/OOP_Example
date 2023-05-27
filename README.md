@@ -3,7 +3,6 @@ Interface, bir sınıfın belirli bir davranışı (metotları) uygulamasını s
 İnterface'ler, bir sınıfın birden fazla interface'i uygulamasına olanak tanır, bu da çoklu mirasın sağlanamadığı durumlarda farklı davranışları bir arada kullanmanın bir yolunu sunar.
 
 İnterface'lerin bazı temel özellikleri şunlardır:
-
 1 - Sadece metot bildirimlerini içerir, gerçek uygulamalar içermez.
 2 - İnterface'lerdeki metotlar varsayılan olarak public'tir ve geri dönüş türü, parametreler ve metot adı belirtilir.
 3 - İnterface'lerde ayrıca özellikler (properties) ve indeksler (indexers) de tanımlanabilir.
