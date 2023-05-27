@@ -1,4 +1,4 @@
-# OOPExample
+OOP - Object-Oriented Programming
 
 OOP (Object-Oriented Programming), çok çeşitli konuları kapsayan bir programlama paradigmasıdır. İşte OOP'nin başlıca konuları:
 
