@@ -7,8 +7,11 @@ Interface, bir sınıfın belirli bir davranışı (metotları) uygulamasını s
 Sadece metot bildirimlerini içerir, gerçek uygulamalar içermez.
 
 İnterface'lerdeki metotlar varsayılan olarak public'tir ve geri dönüş türü, parametreler ve metot adı belirtilir.
+
 İnterface'lerde ayrıca özellikler (properties) ve indeksler (indexers) de tanımlanabilir.
+
 Bir sınıf, bir veya birden fazla interface'i uygulayabilir. Bu uygulama, "interface adı : uygulanan_interface_adı" şeklinde yapılır.
+
 Bir sınıf, bir interface'i uyguladığında, içindeki tüm metotları ve özellikleri (properties) gerçek uygulamalarıyla birlikte sağlamalıdır.
 
 
