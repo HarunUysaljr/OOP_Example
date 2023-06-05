@@ -1,9 +1,15 @@
-Miras (inheritance), bir sınıfın başka bir sınıftan özelliklerini ve davranışlarını devralmasıdır. Bir sınıfın başka bir sınıftan miras alması, kodun tekrarını azaltır ve sınıflar arasındaki ilişkileri organize etmeyi sağlar.
+Miras (inheritance), bir sınıfın başka bir sınıftan özelliklerini ve davranışlarını devralmasıdır.
 
-Temelde, miras veren sınıf (base class) adı verilen bir sınıf tanımlanır ve bu sınıfın özellikleri ve davranışları diğer sınıflar tarafından kullanılabilir hale gelir. Miras alan sınıf (derived class), temel sınıfın özelliklerini ve davranışlarını devralırken kendi özelliklerini ve davranışlarını da ekleyebilir.
+Bir sınıfın başka bir sınıftan miras alması, kodun tekrarını azaltır ve sınıflar arasındaki ilişkileri organize etmeyi sağlar.
 
-Mirasın kullanılması, bir sınıfın daha önce tanımlanan bir sınıfın tüm özelliklerini ve davranışlarını almasını sağlar. Bu, kodun yeniden kullanılabilirliğini artırır, programcının daha az kod yazmasına ve kodu daha organize bir şekilde yönetmesine olanak tanır.
+Temelde, miras veren sınıf (base class) adı verilen bir sınıf tanımlanır ve bu sınıfın özellikleri ve davranışları diğer sınıflar tarafından kullanılabilir hale gelir.
+Miras alan sınıf (derived class), temel sınıfın özelliklerini ve davranışlarını devralırken kendi özelliklerini ve davranışlarını da ekleyebilir.
 
-Örneğin, "Araba" adında bir temel sınıfımız olsun. Bu sınıf, bir arabanın ortak özelliklerini ve davranışlarını içerebilir. Ardından "Sedan" adında bir türetilmiş sınıf oluşturabiliriz. Sedan sınıfı, Araba sınıfından miras aldığı özelliklere sahip olacak ancak aynı zamanda kendi özelliklerini ve davranışlarını da ekleyebilecektir.
+Mirasın kullanılması, bir sınıfın daha önce tanımlanan bir sınıfın tüm özelliklerini ve davranışlarını almasını sağlar. 
 
+Bu, kodun yeniden kullanılabilirliğini artırır, programcının daha az kod yazmasına ve kodu daha organize bir şekilde yönetmesine olanak tanır.
+
+Örneğin, "Araba" adında bir temel sınıfımız olsun. Bu sınıf, bir arabanın ortak özelliklerini ve davranışlarını içerebilir.
+Ardından "Sedan" adında bir türetilmiş sınıf oluşturabiliriz. Sedan sınıfı, 
+Araba sınıfından miras aldığı özelliklere sahip olacak ancak aynı zamanda kendi özelliklerini ve davranışlarını da ekleyebilecektir.
 Miras, nesne yönelimli programlamanın önemli bir konseptidir ve kodun yeniden kullanılabilirliğini artırarak programların daha modüler ve esnek olmasını sağlar.
