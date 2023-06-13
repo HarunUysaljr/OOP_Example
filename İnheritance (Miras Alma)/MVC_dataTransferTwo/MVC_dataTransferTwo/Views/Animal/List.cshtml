@@ -1,0 +1,35 @@
+﻿@using MVC_dataTransferTwo.Models;
+@model List<Animal>
+
+
+<div class="container">
+
+
+@*    <p>Köpeklerin Listesi</p>
+    <ul>
+        <li>@Model[0].name</li>
+        <li>@Model[1].name</li>
+        <li>@Model[2].name</li>
+        <li>@Model[3].name</li>
+    </ul>*@
+
+
+    <ul>
+        @for (var i = 0; i > Model.Count; i++)
+        {
+            <li>@Model[i].name</li>
+        }
+    </ul>
+
+
+    ---> forec
+    <br />
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@item.name</li> <br />  
+        }
+
+    </ul>
+</div>
+
