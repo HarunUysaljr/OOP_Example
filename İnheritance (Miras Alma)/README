@@ -1,0 +1,9 @@
+Miras, bir nesnenin, başka bir nesneden özelliklerini ve davranışlarını devralması anlamına gelir. Bu, nesneler arasındaki hiyerarşik ilişkiyi temsil eder. İki temel terim ile açıklanır: üst sınıf (base class veya parent class) ve alt sınıf (derived class veya child class).
+
+Üst sınıf, özelliklerin ve davranışların bir araya getirildiği bir sınıftır. Alt sınıf ise üst sınıftan miras alır ve onun özelliklerini ve davranışlarını devralır. Bu, kodun tekrar kullanılabilirliğini artırır ve hiyerarşik düzenlemeyi sağlar.
+
+Alt sınıf, üst sınıfta tanımlanan özellikleri ve davranışları doğrudan kullanabilir ve aynı zamanda kendi özelliklerini ve davranışlarını ekleyebilir. Miras, alt sınıfın üst sınıfa eklemeler yaparak genişlemesini sağlar ve bu sayede kodun daha esnek ve ölçeklenebilir olmasını sağlar.
+
+Bir örnek vermek gerekirse, hayvanları temsil eden bir program düşünelim. Üst sınıfımız "Hayvan" olsun ve alt sınıflarımız "Köpek" ve "Kedi" olsun. "Hayvan" sınıfı, genel özellikleri ve davranışları temsil ederken, "Köpek" ve "Kedi" sınıfları, bu özellikleri ve davranışları miras alarak kendi özgün özelliklerini ve davranışlarını ekleyebilirler. Örneğin, "Hayvan" sınıfında "beslenme" davranışı tanımlanabilirken, "Köpek" sınıfı bu davranışa ek olarak "havlama" davranışını da tanımlayabilir.
+
+Bu şekilde, miras nesne tabanlı programlamada kodun tekrar kullanılabilirliğini artırır, kodun daha düzenli ve okunabilir olmasını sağlar ve yeni sınıfların kolayca oluşturulabilmesini sağlar.
