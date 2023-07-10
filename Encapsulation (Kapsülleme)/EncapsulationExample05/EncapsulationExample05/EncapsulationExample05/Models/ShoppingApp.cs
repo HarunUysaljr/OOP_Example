@@ -37,7 +37,7 @@ namespace Shopping.Models
             this.CustomerBasket = new string[0];
         }
 
-
+        public int numara;
 
         public void UrunEkle(string urunAdi)
         {
