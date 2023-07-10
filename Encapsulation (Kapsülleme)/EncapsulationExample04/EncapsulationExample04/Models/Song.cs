@@ -29,7 +29,7 @@ namespace EncapsulationExample04.Models
                 return _artist;
             }
             set {
-                _artist = value;
+                _artist = value.ToLower;
             }
         }
 

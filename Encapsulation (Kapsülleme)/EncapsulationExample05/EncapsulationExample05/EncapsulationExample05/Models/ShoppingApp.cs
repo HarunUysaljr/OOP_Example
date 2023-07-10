@@ -8,6 +8,7 @@ namespace Shopping.Models
 {
     internal class ShoppingApp
     {
+        private string _harun;
         private string _CustomerName;
         private string _CustomerPassword;
         private string[] _CustomerBasket;
@@ -37,7 +38,7 @@ namespace Shopping.Models
             this.CustomerBasket = new string[0];
         }
 
-        public int numara;
+
 
         public void UrunEkle(string urunAdi)
         {
